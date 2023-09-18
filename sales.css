@@ -1,0 +1,258 @@
+body{
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 0px 15px  grey;
+    padding: 20px;
+}
+
+.head_logo{
+    display: flex;
+    flex-direction: row;
+}
+
+.head_title{
+    color: rgb(150, 14, 150);
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.head_img{
+    width: 80px;
+    height: 80px;
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar{
+    width: 250px;
+    height: 350px;
+    margin-top: 10px;
+    margin-right: 30px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+.sidebar_category{
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    color: grey;
+    position: relative;
+}
+
+.sidebar_category:hover{
+    color: rgb(150, 14, 150);
+    border-bottom: 2px solid rgb(150, 14, 150);
+}
+
+.sidebar_categories{
+    margin-left: 50px;
+    padding-top: 25px;
+    height: 350px;
+}
+
+.sidebar_icon,.ri-arrow-drop-right-line{
+    margin-top: 2px;
+}
+
+.ri-arrow-drop-right-line{
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+}
+
+.sales{
+    border-bottom: 2px solid rgb(150, 14, 150);
+    color: rgb(150, 14, 150);
+    font-weight: 900;
+}
+
+.mainbody{
+    margin: 50px;
+}
+
+.mainbody_title{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.mainbody_product{
+    width: 900px;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    position: relative;
+    height: auto;
+    background-color: rgb(180, 180, 180);
+}
+
+.product_thumbnail{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.product_thumbnailtext{
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: 70px;
+    margin-right: 20px;
+    color: black;
+}
+
+.product_thumbnailimg{
+    width: 170px;
+    height: 170px;
+}
+
+.product_thumbnailimg:hover{
+    cursor: pointer;
+}
+
+.product_name{
+    margin-bottom: 20px;
+}
+
+.product_nameinput{
+    font-size: 20px;
+    border-radius: 5px;
+    height: 40px;
+    width: 300px;
+}
+
+.product_location{
+    margin-bottom: 20px;
+}
+
+.product_locationinput{
+    font-size: 20px;
+    border-radius: 5px;
+    height: 40px;
+    width: 300px;
+}
+
+.product_price{
+    margin-bottom: 20px;
+}
+
+.product_priceinput{
+    font-size: 20px;
+    border-radius: 5px;
+    height: 40px;
+    width: 400px;
+}
+
+.product_nametext,.product_descriptiontext,.product_categorytext,.product_imagestext,.product_pricetext,.product_locationtext{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.product_descriptioninput{
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 100px;
+    width: 800px;
+    border: 2px solid black;
+}
+
+.product_category{
+    margin-bottom: 20px;
+}
+
+.product_categoryinput{
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+}
+
+.product_images{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.product_imagesinput{
+    margin-top: 10px;
+}
+
+.product_imgs{
+    margin-right: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.product_btn{
+    margin: 30px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.product_btn:hover{
+    cursor: pointer;
+}
+
+.footer{
+    padding: 30px 10px 10px 100px;
+    background-color: rgb(3, 3, 85);
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-top: 100px;
+}
+
+.footer_link{
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    margin-left: 200px;
+}
+
+.footer_link1, .footer_link2{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_link2{
+    margin-left: 200px;
+}
+
+.footer_links{
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.footer_contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_contacttext{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer_contacts{
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}

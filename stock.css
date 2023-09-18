@@ -1,0 +1,145 @@
+body{
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 0px 15px  grey;
+    padding: 20px;
+}
+
+.head_logo{
+    display: flex;
+    flex-direction: row;
+}
+
+.head_title{
+    color: rgb(150, 14, 150);
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.head_img{
+    width: 80px;
+    height: 80px;
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar{
+    width: 250px;
+    height: 350px;
+    margin-top: 10px;
+    margin-right: 30px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+.sidebar_category{
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    color: grey;
+    position: relative;
+}
+
+.sidebar_category:hover{
+    color: rgb(150, 14, 150);
+    border-bottom: 2px solid rgb(150, 14, 150);
+}
+
+.sidebar_categories{
+    margin-left: 50px;
+    padding-top: 25px;
+    height: 350px;
+}
+
+.sidebar_icon,.ri-arrow-drop-right-line{
+    margin-top: 2px;
+}
+
+.ri-arrow-drop-right-line{
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+}
+
+.mainbody{
+    margin: 50px;
+}
+
+.mainbody_title{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.mainbody_item{
+    font-size: 20px;
+    width: 1000px;
+    height: 170px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 15px grey;
+}
+
+.stock{
+    border-bottom: 2px solid rgb(150, 14, 150);
+    color: rgb(150, 14, 150);
+    font-weight: 900;
+}
+
+.footer{
+    padding: 30px 10px 10px 100px;
+    background-color: rgb(3, 3, 85);
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-top: 100px;
+}
+
+.footer_link{
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    margin-left: 200px;
+}
+
+.footer_link1, .footer_link2{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_link2{
+    margin-left: 200px;
+}
+
+.footer_links{
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.footer_contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_contacttext{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer_contacts{
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,141 @@
+body{
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.head_logo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 50px;
+    position: absolute;
+    top: 0;
+}
+
+.head_title{
+    color: rgb(150, 14, 150);
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.head_img{
+    width: 120px;
+    height: 100px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 50px;
+    padding-bottom: 80px;
+    width: 500px;
+    margin-top: 150px;
+    margin-left: 450px;
+    background-color: rgb(3, 3, 85);
+}
+
+.form_title{
+    color: white;
+    font-size: 40px;
+}
+
+.form_email,.form_password{
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(150, 14, 150);
+}
+
+.form_submit{
+    background-color: rgb(150, 14, 150);
+    border: 1px solid rgb(150, 14, 150);
+    border-radius: 5px;
+    margin-top: 20px;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+.form_submit:hover{
+    cursor: pointer;
+}
+
+.form_permit{
+    margin-top: 15px;
+    color: white;
+}
+
+.permit_text{
+    margin-left: 305px;
+    color:rgb(150, 14, 150);
+}
+
+.permit_text:hover{
+    cursor: pointer;
+}
+
+.form_text{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.form_text1,.form_secondtext{
+    color: white;
+}
+
+.form_textlink1,.form_textlink2{
+    color:rgb(150, 14, 150);
+}
+
+.footer{
+    padding: 30px 10px 10px 100px;
+    background-color: rgb(3, 3, 85);
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-top: 100px;
+}
+
+.footer_link{
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    margin-left: 200px;
+}
+
+.footer_link1, .footer_link2{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_link2{
+    margin-left: 200px;
+}
+
+.footer_links{
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.footer_contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_contacttext{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer_contacts{
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}

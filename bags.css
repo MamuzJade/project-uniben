@@ -1,0 +1,207 @@
+body{
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.head{
+    display:flex;
+    flex-direction:row;
+    background-color: white;
+    box-shadow: 0px 0px 15px grey;
+    padding: 20px;
+}
+
+.head_logo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.head_title{
+    color: rgb(150, 14, 150);
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.head_search{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-left: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgb(150, 14, 150);
+    background-color: white;
+}
+
+.head_searchbar{
+    width: 500px;
+    height: 45px;
+    font-size: 15px;
+    border: 1px solid white;
+}
+
+.head_button{
+    padding: none;
+    height: 30px;
+    background-color: rgb(150, 14, 150);
+    margin-left: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.head_button:hover{
+    cursor: pointer;
+    border: 1px solid rgb(150, 14, 150);
+    color: rgb(150, 14, 150);
+    background-color: white;
+}
+
+.head_img{
+    width: 80px;
+    height: 80px;
+}
+
+.head_profile{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+.sidebar{
+    width: 100px;
+    height: 350px;
+    margin: 50px;
+}
+
+.sidebar_category{
+    width: 150px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(160, 157, 157);
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+.mainbody{
+    padding: 50px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainbody_title{
+    font-family: forte;
+    color:  rgb(150, 14, 150);
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.mainbody_item{
+    width: 1000px;
+    height: 170px;
+    box-shadow: 0px 0px 15px grey;
+    margin-bottom: 20px;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.mainbody_item:hover{
+    cursor: pointer;
+}
+
+.item_img{
+    width: 170px;
+    height: 170px;
+    margin-right: 5px;
+}
+
+.item_info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    gap: 20px;
+    width: 670px;
+}
+
+.item_name{
+    color: rgb(150, 14, 150);
+    font-size: 25px;
+}
+
+.item_price{
+    font-weight: 900;
+}
+
+.item_location{
+    color: grey;
+    position: absolute;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    bottom: 0;
+    right: 0;
+}
+
+.ri-map-pin-line{
+    margin-right: 5px;
+}
+
+.footer{
+    padding: 30px 10px 10px 100px;
+    background-color: rgb(3, 3, 85);
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.footer_link{
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    margin-left: 200px;
+}
+
+.footer_link1, .footer_link2{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_link2{
+    margin-left: 200px;
+}
+
+.footer_links{
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.footer_contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_contacttext{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer_contacts{
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}

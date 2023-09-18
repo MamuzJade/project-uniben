@@ -1,0 +1,265 @@
+body{
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.head{
+    display:flex;
+    flex-direction:row;
+    background-color: white;
+    box-shadow: 0px 0px 15px grey;
+    padding: 20px;
+}
+
+.head_logo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.head_title{
+    color: rgb(150, 14, 150);
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.head_search{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-left: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgb(150, 14, 150);
+    background-color: white;
+}
+
+.head_searchbar{
+    width: 500px;
+    height: 45px;
+    font-size: 15px;
+    border: 1px solid white;
+}
+
+.head_button{
+    padding: none;
+    height: 30px;
+    background-color: rgb(150, 14, 150);
+    margin-left: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.head_button:hover{
+    cursor: pointer;
+    border: 1px solid rgb(150, 14, 150);
+    color: rgb(150, 14, 150);
+    background-color: white;
+}
+
+.head_img{
+    width: 80px;
+    height: 80px;
+}
+
+.head_profile{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+.scrollbar{
+    width: 250px;
+    height: 350px;
+    float: left;
+}
+
+.sidebar{
+    margin-top: 10px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+.sidebar_category{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    color: grey;
+    position: relative;
+}
+
+.sidebar_category:hover{
+    color: blue;
+}
+
+.sidebar_categories{
+    margin-left: 100px;
+    padding-top: 25px;
+    height: 350px;
+}
+
+.sidebar_icon,.ri-arrow-drop-right-line{
+    margin-top: 2px;
+}
+
+.ri-arrow-drop-right-line{
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+}
+  
+
+.update{
+    padding: 50px;
+    background-color: rgb(3, 3, 85);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+.update_title{
+    font-size: 30px;
+    margin: 10px;
+}
+
+.update_email{
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid white;
+}
+
+.update_btn{
+    height: 45px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(150, 14, 150);
+    border: none;
+}
+
+.footer{
+    padding: 30px 10px 10px 100px;
+    background-color: rgb(3, 3, 85);
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.footer_link{
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    margin-left: 200px;
+}
+
+.footer_link1, .footer_link2{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_link2{
+    margin-left: 200px;
+}
+
+.footer_links{
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.footer_contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_contacttext{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer_contacts{
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.main_itemimg{
+    width: 600px;
+    height: 300px;
+    box-shadow: 0px 0px 15px grey;
+}
+
+.main_item{
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    padding: 50px;
+    font-family: forte;
+    color: rgb(150, 14, 150);
+}
+
+.main_itemtext{
+    margin-left: 20px;
+    margin-top: 80px;
+}
+
+.main_headtexts{
+    margin-top: 160px;
+    margin-left: 100px;
+}
+
+.main_headtext{
+    color: rgb(150, 14, 150);
+    font-family: forte;
+    font-size: 40px;
+    margin-bottom: 170px;
+    float: left;
+}
+
+.mainbody{
+    display: flex;
+    flex-direction: column;
+}
+
+.mainbody_items{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+}
+
+.mainbody_item{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 30px;
+    width: 170px;
+    border-radius: 20px;
+    padding: 15px;
+    padding-left: 20px;
+    box-shadow: 0px 0px 15px grey;
+}
+
+.mainbody_item:hover,.sidebar_category:hover,.head_login:hover,.head_signup:hover,.head_button:hover,.update_btn:hover{
+    cursor: pointer;
+}
+
+.item_img{
+    width: 150px;
+    height: 150px;
+}
+
+.item_name{
+    font-weight: bold;
+    color: grey;
+    margin-top: 20px;
+}
+
+
